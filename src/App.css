@@ -1,0 +1,28 @@
+.image_slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image_slider img {
+  width: 300px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.image-index {
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.index-number {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.index-number.active {
+  font-weight: bold;
+  color: blue;
+}
